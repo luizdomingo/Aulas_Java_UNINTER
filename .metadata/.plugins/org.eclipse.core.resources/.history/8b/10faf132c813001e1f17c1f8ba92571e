@@ -1,0 +1,10 @@
+package com.LuizDomingo.Empresa;
+
+public class Acount {
+	
+	String Name;
+	String Saldo;
+	
+	
+
+}

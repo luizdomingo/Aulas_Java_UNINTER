@@ -1,0 +1,12 @@
+package aulas_UNINTER;
+
+public class Moeda
+{
+	public double moeda;
+	public Moeda(double moeda)
+	{
+		super();
+		this.moeda = moeda;
+	};
+	
+}

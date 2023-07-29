@@ -1,0 +1,24 @@
+package aulas_UNINTER;
+
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int opc;
+		
+		System.out.println("---------------------------------------------------------");
+		//System.out.println("Por favor escolha uma opcao...");
+		System.out.println("");
+		System.out.println(" 1 - Para adcionar ");
+		System.out.println(" 2 - Para remover  ");
+		System.out.println(" 3 - Para listar   ");
+		System.out.println(" 4 - Para calcular o valor da moeda convertido em real ");
+		System.out.println("");
+		System.out.println("---------------------------------------------------------");
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package aulas_UNINTER;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		
+		System.out.print("Digite o valor da moeda: ");
+		double moeda = sc.nextDouble(); 		
+		
+		Cofrinho cof = new Cofrinho();
+				
+						
+		//Quando usamos a Lib Scanner precisamos fecha apos o fim do algoritimo 
+		sc.close();
+	}
+
+}

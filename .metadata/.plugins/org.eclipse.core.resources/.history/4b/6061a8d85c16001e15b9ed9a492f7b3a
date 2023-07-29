@@ -1,0 +1,19 @@
+package aulas_UNINTER;
+
+public class Euro extends Moeda
+{
+
+	@Override
+	public void info()
+	{
+		System.out.println("Temos um total de: " + moeda + "Euro");
+	}
+
+	@Override
+	public void converter()
+	{
+		double valorHoje = 5.9;
+		moeda * valorHoje
+	}
+
+}

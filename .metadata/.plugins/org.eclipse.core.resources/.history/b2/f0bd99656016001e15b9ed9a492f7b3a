@@ -1,0 +1,28 @@
+package aulas_UNINTER;
+
+public class Real extends Moeda
+{
+	double ValorHoje; 
+	
+	/* Criando o construtore */
+	public Real(double moeda, double valorHoje)
+	{
+		super();
+		this.ValorHoje = valorHoje;
+	}
+	
+	
+	@Override
+	public void info()
+	{
+		System.out.println("Temos um total de R$" + moeda + " Reais");
+	}
+
+	
+	@Override
+	public double converter() 
+	{
+		return ValorHoje * moeda;
+	}
+
+}

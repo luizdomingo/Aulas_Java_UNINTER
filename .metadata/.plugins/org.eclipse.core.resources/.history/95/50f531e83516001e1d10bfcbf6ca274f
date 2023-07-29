@@ -1,0 +1,18 @@
+package aulas_UNINTER;
+
+import java.util.ArrayList;
+
+public class Cofrinho 
+{
+	/* Lista onde vai ficar armazenada as moedas */
+	private ArrayList<Moeda> moeda = new ArrayList(); 
+	
+	
+	/*  Metodo para adiconar as moedas */
+	public void adcionarMoeda(Moeda moeda) 
+	{
+		
+	}
+	
+	
+}

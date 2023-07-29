@@ -1,0 +1,43 @@
+package aulas_UNINTER;
+
+public class Aluno {
+
+	/* Criando os atributos da class Aluno */
+	String nome;
+	int matricula;
+	double desconto;
+	Curso  curso;
+
+	/* Criando o construtor da class Aluno */
+	public Aluno(String nome, int matricula, double desconto, Curso curso) 
+	{
+		this.nome = nome;
+		this.matricula = matricula;
+		this.desconto = desconto;
+		this.curso = curso;
+	}
+	
+	
+    /* Contrutor padrao, ou seja um contrutor vazio */
+	public Aluno() {}
+	 
+	
+	/* Metodo para ixibir as informacoes referente ao aluno */
+	double pagamento() 
+	{
+		return curso.mensalidade * (1 - this.desconto);
+	}	
+		
+	
+	/* Metodo para o pagamento */
+	void info()
+	{
+		System.out.println("- - - - - - Exibindo Informacoes - - - - -");
+		System.out.println("Aluno: " + nome);
+		System.out.println("Matricula do Aluno: " + matricula);
+		System.out.println("Desconto Adquirido: " + desconto);
+		System.out.println("Pagamento: " + pagamento());
+		System.out.println("- - - - - - - - - - - - - - - - - - - - - -");
+	}
+		
+}

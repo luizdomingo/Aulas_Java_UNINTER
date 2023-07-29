@@ -1,0 +1,42 @@
+package aulas_UNINTER;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Cofrinho 
+{
+	
+	/* Lista onde vai ficar armazenada as moedas */
+	private ArrayList<Moeda> moedas = new ArrayList(); 
+	public Cofrinho() {}
+	
+	/*  Metodo para adiconar as moedas */
+	public void adcionarMoeda(Moeda moeda) 
+	{
+		moedas.add(moeda);
+	}
+	
+	
+	/* Metod para remover as moedas */
+	public void removerMoedas(Moeda moeda) 
+	{
+		moedas.remove(moeda);
+	}
+	
+	
+	/* Metodo para Listar as moedas */
+	public void listarMoedas()
+	{
+		//Poderiamos usar uma lambda para simplificar o codigo
+		//moedas.forEach(moeda -> System.out.println(moeda));
+		
+		for(Moeda m : moedas) 
+		{
+			System.out.println("Temos as seguintes Moedas: " + m);
+		}
+	}
+	
+	
+	/**/
+	
+}

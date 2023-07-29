@@ -1,0 +1,37 @@
+package aulas_UNINTER;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Cofrinho 
+{
+	/* Usando a lib Scanner par aler os dados do teclado digitado pelo usuario */
+	Scanner sc = new Scanner(System.in);
+	
+	/* Lista onde vai ficar armazenada as moedas */
+	private ArrayList<Moeda> moedas = new ArrayList(); 
+	
+	
+	/*  Metodo para adiconar as moedas */
+	public void adcionarMoeda(Moeda moeda) 
+	{
+		moedas.add(moeda);
+	}
+	
+	
+	/* Metod para remover as moedas */
+	public void removerMoedas(Moeda moeda) 
+	{
+		moedas.remove(moeda);
+	}
+	
+	
+	
+	/**/
+	
+	
+	/**/
+	
+	/* Toda vez que usamos o recurso Scanner, temos que fechar */
+
+}

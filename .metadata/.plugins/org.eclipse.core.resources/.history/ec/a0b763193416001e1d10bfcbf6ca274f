@@ -1,0 +1,21 @@
+package aulas_UNINTER;
+
+public abstract class Moeda
+{
+	/*Atributo da class*/
+	public double moeda;
+	
+	/* Construtor da class */
+	public Moeda(double moeda)
+	{
+		super();
+		this.moeda = moeda;
+	};
+	
+	
+	/* Metodos abstrato para exibir as informações e converter os valores da moedas */
+	public abstract void info(); 
+	
+		
+	
+}

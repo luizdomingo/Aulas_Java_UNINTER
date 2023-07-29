@@ -1,0 +1,17 @@
+package aulas_UNINTER;
+
+public class Dolar extends Moeda {
+
+	@Override
+	public void info() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void converter() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

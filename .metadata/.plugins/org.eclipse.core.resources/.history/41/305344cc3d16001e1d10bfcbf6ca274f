@@ -1,0 +1,10 @@
+package aulas_UNINTER;
+
+public class Menu
+{
+	/* Atributo onde vai ser usado como parametro para opção */
+	int opc;
+	
+	/*Construtor padrão*/
+	
+}
